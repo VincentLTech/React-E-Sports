@@ -1,8 +1,4 @@
 import React from 'react';
-// import {Link} from 'react-router-dom';
-// import {HashLink} from 'react-router-hash-link';
-// const profile = require('../images/profile.jpg')
-
 const Hero = () => {
     return (
         <section class="hero" id="hero">

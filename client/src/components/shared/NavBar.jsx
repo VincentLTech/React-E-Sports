@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../static/Navbar.css';
 const main_logo = require('../../images/main_logo.png');
 const NavBar = () => {
     return (

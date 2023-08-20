@@ -1,22 +1,18 @@
 import React from 'react';
-const Brooklyn = require('../../images/gallery-img-5.jpg');
+const Stream = require('../../images/Stream.jpg');
 const About = () => {
     return (
         <section class="about" id="about">
-            <div class="container">
+            <div class="containe2">
                 <div class="about-content">
+                    <a href="https://www.twitch.tv/cunybcesports">
                     <figure class="about-banner">
-                        <img src={Brooklyn} alt="profile-img" class="about-img" />
+                        <img src={Stream} alt="profile-img" class="about-img"/>
+                        <h1 class="about-title">Watch Our <strong>Stream</strong> </h1>
+                        {/* </img> */}
                     </figure>
-                    <h1 class="about-title">Watch Our <strong>Stream</strong> </h1>
-                    <p class="about-text">
-                        xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-                        xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-                        xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-                    </p>
-                    <p class="about-bottom-text">
-                        <span>Click here to join!</span>
-                    </p>
+                    <br/>
+                    </a>
                 </div>
             
             </div>

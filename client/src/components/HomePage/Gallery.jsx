@@ -1,14 +1,9 @@
 import React from 'react';
-// import {Link} from 'react-router-dom';
-// import {HashLink} from 'react-router-hash-link';
-// const profile = require('../images/profile.jpg')
 const image1 = require('../../images/gallery-img-1.jpg');
 const image2 = require('../../images/gallery-img-2.jpg');
 const image3 = require('../../images/gallery-img-3.jpg');
 const image4 = require('../../images/gallery-img-4.jpg');
 const image5 = require('../../images/gallery-img-5.jpg');
-// const image5 = require('../../images/gallery-img-1.jpg');
-
 const Gallery = () => {
     return (
         <section class="gallery">

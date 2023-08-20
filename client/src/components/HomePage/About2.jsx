@@ -1,22 +1,17 @@
 import React from 'react';
-const Brooklyn = require('../../images/gallery-img-5.jpg');
+const Member = require('../../images/Member.jpg');
 const About2 = () => {
     return (
         <section class="about" id="about">
-            <div class="container">
+            <div class="containe2">
                 <div class="about-content">
-                    <figure class="about-banner">
-                        <img src={Brooklyn} alt="profile-img" class="about-img" />
-                    </figure>
-                    <h4 class="about-title">Join Our <strong>Club</strong> </h4>
-                    <p class="about-text">
-                        xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-                        xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-                        xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-                    </p>
-                    <p class="about-bottom-text">
-                        <span>Click here to join!</span>
-                    </p>
+                    <a href="https://forms.gle/kVmB9CahkDHVXr796">
+                        <figure class="about-banner">
+                            <img src={Member} alt="profile-img" class="about-img" />
+                        </figure>
+                        <br/>
+                        <h4 class="about-title">Join Our <strong>Club</strong> </h4>
+                    </a>
                 </div>
             
             </div>

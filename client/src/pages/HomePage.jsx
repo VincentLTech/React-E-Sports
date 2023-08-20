@@ -8,14 +8,16 @@ import Gallery from '../components/HomePage/Gallery';
 import Contact from '../components/HomePage/Contact';
 import Contact2 from '../components/HomePage/Contact2';
 import Footer from '../components/HomePage/Footer';
-import '../static/Navbar.css';
-import '../static/About.css';
+import Mission from '../components/HomePage/Mission';
+import '../App.css';
+
 const HomePage = () => {
     return (
         <>
             <div style={{backgroundColor:'black'}}>
                 <NavBar/>
                 <Hero/>
+                <Mission/>
                 <div className='flex-fod'>
                         <About/>
                         <About2/>

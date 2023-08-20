@@ -2,8 +2,7 @@ import React from 'react';
 import NavBar from '../components/shared/NavBar';
 import Introduction from '../components/History/Introduction';
 import Footer from '../components/HomePage/Footer';
-import '../static/Navbar.css';
-import '../static/About.css';
+
 const History= () => {
     return (
         <>
