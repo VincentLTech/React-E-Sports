@@ -9,9 +9,9 @@ const About3 = () => {
 
                         <figure class="about-banner">
                             <img src={Compete} alt="profile-img" class="about-img" />
+                            <h4 class="about-title">Join The <strong>Team</strong> </h4>
                         </figure>
                          <br/>
-                        <h4 class="about-title">Join The <strong>Team</strong> </h4>
                     </a>
                 </div>
             </div>

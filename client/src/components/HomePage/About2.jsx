@@ -6,11 +6,13 @@ const About2 = () => {
             <div class="containe2">
                 <div class="about-content">
                     <a href="https://forms.gle/kVmB9CahkDHVXr796">
-                        <figure class="about-banner">
-                            <img src={Member} alt="profile-img" class="about-img" />
-                        </figure>
-                        <br/>
-                        <h4 class="about-title">Join Our <strong>Club</strong> </h4>
+                    <figure class="about-banner">
+                    <img src={Member} alt="profile-img" class="about-img" />
+                    <h1 class="about-title">Join Our <strong>Club</strong>  </h1>
+
+                        {/* </img> */}
+                    </figure>
+                    <br/>
                     </a>
                 </div>
             
