@@ -7,7 +7,7 @@ import About3 from '../components/HomePage/About3';
 import Gallery from '../components/HomePage/Gallery';
 import Contact from '../components/HomePage/Contact';
 import Contact2 from '../components/HomePage/Contact2';
-import Footer from '../components/HomePage/Footer';
+import Footer from '../components/shared/Footer';
 import Mission from '../components/HomePage/Mission';
 import '../App.css';
 

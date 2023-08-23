@@ -17,6 +17,9 @@ const Footer = () => {
                                 <li>
                                     <a href="#" class="footer-menu-link">Contact</a>
                                 </li>
+                                <li>
+                                    <a href="#" class="footer-menu-link">Special Thanks</a>
+                                </li>
                             </ul>
                         </div>
                     </div>
