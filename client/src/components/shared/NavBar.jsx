@@ -1,5 +1,8 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
+import {HashLink} from 'react-router-hash-link';
 const main_logo = require('../../images/main_logo.png');
+
 const NavBar = () => {
     return (
         <header class="header">
@@ -9,13 +12,17 @@ const NavBar = () => {
                     <nav class="navbar" data-nav>   
                         <ul class="navbar-list">
                             <li>
-                                <a href="#hero" class="navbar-link">Home</a>
+                                <HashLink smooth to='/#hero' class="navbar-link" href="#">Home</HashLink>
+                                {/* <a href="#hero" class="navbar-link">Home</a> */}
                             </li>
                             <li>
-                                <a href="#about" class="navbar-link">About</a>
+                                <HashLink smooth to='/#about' class="navbar-link" href="#">About</HashLink>
                             </li>
                             <li>
-                                <a href="#contact" class="navbar-link">Contact</a>
+                                <HashLink smooth to='/#contact' class="navbar-link" href="#">Contact</HashLink>
+                            </li>
+                            <li>
+                                <a href="https://discord.gg/rKMTVrcW" class="navbar-link">Discord</a>
                             </li>
 
                         </ul>

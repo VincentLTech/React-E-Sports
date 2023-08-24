@@ -1,4 +1,6 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
+import {HashLink} from 'react-router-hash-link';
 const profile1 = require('../../images/team-member-1.png');
 const profile2 = require('../../images/team-member-2.png');
 const profile3 = require('../../images/team-member-3.png');
@@ -51,7 +53,7 @@ const Contact2 = () => {
                 </a>
               </li>
             </ul>
-            <button class="btn btn-primary">view all members</button>
+            <Link to='/member'><button class="btn btn-primary">View All Members</button></Link>
           </div>
         </section>
     );

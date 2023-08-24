@@ -1,10 +1,7 @@
 import HomePage from './pages/HomePage';
 import History from './pages/History';
 
-import Xander from './pages/Xander';
-// import ProjectPage from './pages/ProjectPage';
-// import UserPage from './pages/UserPage';
-// import FormPage from './pages/FormPage';
+import Member from './pages/Members';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -12,9 +9,9 @@ function App() {
     <>
       <BrowserRouter> 
         <Routes>
-          <Route path='/hi' element={<HomePage/>}/>
+          <Route path='/' element={<HomePage/>}/>
           <Route path='/history' element={<History/>}/>
-          <Route path='/xander' element={<Xander/>}/>
+          <Route path='/member' element={<Member/>}/>
         </Routes>
       </BrowserRouter>
     </>
