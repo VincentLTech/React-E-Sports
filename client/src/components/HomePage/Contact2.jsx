@@ -61,14 +61,14 @@ const Contact2 = () => {
                   </figure>
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#" class="team-member">
                   <figure>
                     <img src={profile3} alt="profile-img" class="team-crop"/>
                       <center>Moustafa Salem</center>
                   </figure>
                 </a>
-              </li>
+              </li> */}
             </ul>
             <Link to='/member'><button class="btn btn-primary">View All Members</button></Link>
           </div>

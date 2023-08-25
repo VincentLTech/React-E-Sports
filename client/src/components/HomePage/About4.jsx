@@ -9,7 +9,7 @@ const About3 = () => {
 
                         <figure class="about-banner">
                             <img src={Discord} alt="profile-img" class="about-img" />
-                            <h4 class="about-title">Join The <strong>Club</strong> </h4>
+                            <h4 class="about-title">Join The <strong>Discord</strong> </h4>
                         </figure>
                     </a>
                 </div>

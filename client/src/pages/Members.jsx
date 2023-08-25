@@ -108,13 +108,13 @@ const Xander = () => {
                 <p>Email: darbyt43@gmail.com </p>
                 <p>Phone: (917) 618-8725</p>    
               </div>
-              <div class="contact-card">
+              {/* <div class="contact-card">
                 <center><img src={profile13} alt="profile-img" class="team-crop"/></center>
                 <h1>Moustafa Salem</h1>
                 <p>Role: Esports Manager</p>
                 <p>Email: salemmmoustafa@gmail.com</p>
                 <p>Phone: (347) 662-5350</p>    
-              </div>
+              </div> */}
 
             </ul>
             <div class="container">
