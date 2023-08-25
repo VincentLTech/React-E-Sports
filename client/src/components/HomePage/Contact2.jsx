@@ -6,6 +6,7 @@ const profile2 = require('../../images/team-member-2.png');
 const profile3 = require('../../images/team-member-3.png');
 const profile4 = require('../../images/team-member-4.png');
 const profile5 = require('../../images/team-member-5.png');
+const profile6 = require('../../images/team-member-7.png');
 const Contact2 = () => {
     return (
         <section class="team" id="team">
@@ -47,8 +48,24 @@ const Contact2 = () => {
               <li>
                 <a href="#" class="team-member">
                   <figure>
+                    <img src={profile6} alt="profile-img" class="team-crop"/>
+                      <center>Darby Tabuteau</center>
+                  </figure>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="team-member">
+                  <figure>
                     <img src={profile3} alt="profile-img" class="team-crop"/>
                       <center>Sully</center>
+                  </figure>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="team-member">
+                  <figure>
+                    <img src={profile3} alt="profile-img" class="team-crop"/>
+                      <center>Moustafa Salem</center>
                   </figure>
                 </a>
               </li>

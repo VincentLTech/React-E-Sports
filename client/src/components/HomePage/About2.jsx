@@ -12,17 +12,10 @@ const About2 = () => {
 
                         {/* </img> */}
                     </figure>
-                    <br/>
                     </a>
                 </div>
             
             </div>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
         </section>
     );
 }

@@ -50,9 +50,6 @@ const Footer = () => {
                             </ul>
                         </div>
                     </div>
-                    <div>
-                        -Vincent Lau
-                    </div>
                 </div>
             </div>
         </footer>

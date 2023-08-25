@@ -16,6 +16,7 @@ const profile12 = require('../images/team-member-2.png');
 const profile13 = require('../images/team-member-3.png');
 const profile14 = require('../images/team-member-4.png');
 const profile15 = require('../images/team-member-5.png');
+const profile16 = require('../images/team-member-7.png');
 
 const Xander = () => {
     return (
@@ -34,8 +35,8 @@ const Xander = () => {
               <center><img src={profile4} alt="profile-img" class="team-crop"/></center>
               <h1>John</h1>
               <p>Role: Treasurer</p>
-              <p>Email: john@example.com</p>
-              <p>Phone: (123) 456-7890</p>
+              <p>Email: johnfjp99@gmail.com</p>
+              {/* <p>Phone: (123) 456-7890</p> */}
             </div>
             <div class="contact-card">
               <center><img src={profile3} alt="profile-img" class="team-crop"/></center>
@@ -48,8 +49,8 @@ const Xander = () => {
             <center><img src={profile2} alt="profile-img" class="team-crop"/></center>
               <h1>Sasha</h1>
               <p>Role: President</p>
-              <p>Email: john@example.com</p>
-              <p>Phone: (123) 456-7890</p>
+              <p>Email: sasha.calderon91@bcmail.cuny.edu</p>
+              <p>Phone: (845) 707-5782</p>
             </div>
             <div class="contact-card">
               <center><img src={profile1} alt="profile-img" class="team-crop"/></center>
@@ -90,19 +91,35 @@ const Xander = () => {
                 <center><img src={profile14} alt="profile-img" class="team-crop"/></center>
                 <h1>Cheng</h1>
                 <p>Role: Social Media Manager</p>
-                <p>Email: john@example.com</p>
+                <p>Email: Cheng.Chen14@bcmail.cuny.edu</p>
                 <p>Phone: (123) 456-7890</p>
               </div>
               <div class="contact-card">
                 <center><img src={profile13} alt="profile-img" class="team-crop"/></center>
                 <h1>Sully</h1>
                 <p>Role: Event Coordinator</p>
-                <p>Email: john@example.com</p>
-                <p>Phone: (123) 456-7890</p>    
+                <p>Email: shlomo.orenstein13@gmail.com</p>
+                <p>Phone: (917) 962-7741</p>    
+              </div>
+              <div class="contact-card">
+                <center><img src={profile16} alt="profile-img" class="team-crop"/></center>
+                <h1>Darby Tabuteau</h1>
+                <p>Role: Esports Manager</p>
+                <p>Email: darbyt43@gmail.com </p>
+                <p>Phone: (917) 618-8725</p>    
+              </div>
+              <div class="contact-card">
+                <center><img src={profile13} alt="profile-img" class="team-crop"/></center>
+                <h1>Moustafa Salem</h1>
+                <p>Role: Esports Manager</p>
+                <p>Email: salemmmoustafa@gmail.com</p>
+                <p>Phone: (347) 662-5350</p>    
               </div>
 
             </ul>
-            <Link to='/#contact'><button class="btn btn-primary">Return</button></Link>
+            <div class="container">
+              <Link smooth to='/#contact'><button class="btn btn-primary">Return</button></Link>
+            </div>
         <Footer/>
       </div>
     );

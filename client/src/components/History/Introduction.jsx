@@ -33,6 +33,7 @@ const Introduction = () => {
                   </figure>
               </a>
             </li>
+            <br/>
             <li>
               <a href="#" class="team-member">
                   <figure>
@@ -41,6 +42,7 @@ const Introduction = () => {
                   </figure>
               </a>
             </li>
+            <br/>
             <li>
               <a href="#" class="team-member">
                   <figure>
@@ -49,6 +51,7 @@ const Introduction = () => {
                   </figure>
               </a>
             </li>
+            <br/>
             <li>
               <a href="#" class="team-member">
                   <figure>
@@ -57,6 +60,7 @@ const Introduction = () => {
                   </figure>
               </a>
             </li>
+            <br/>
             <li>
               <a href="#" class="team-member">
                   <figure>

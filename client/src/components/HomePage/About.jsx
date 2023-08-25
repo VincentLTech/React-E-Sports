@@ -11,17 +11,10 @@ const About = () => {
                         <h1 class="about-title">Watch Our <strong>Stream</strong> </h1>
                         {/* </img> */}
                     </figure>
-                    <br/>
                     </a>
                 </div>
             
             </div>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
         </section>
     );
 }
