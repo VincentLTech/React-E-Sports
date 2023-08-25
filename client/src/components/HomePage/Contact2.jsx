@@ -72,6 +72,7 @@ const Contact2 = () => {
             </ul>
             <Link to='/member'><button class="btn btn-primary">View All Members</button></Link>
           </div>
+          
         </section>
     );
 }
